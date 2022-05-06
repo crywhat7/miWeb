@@ -20,6 +20,16 @@
     (Ver ramas) -> git branch
 
   * Crear Stashes y saber que son y para que sirven
+    Sirven para guardar todo el trabajo que hemos estado realizando en una rama
+    y poder cambiarnos a otra en el caso de que sea estrictamente necesario.
+    (Comandos)
+      git stash save "Comentario" -> (Guarda el progreso.)
+      git stash apply -> (Aplicar los ultimos cambios en el stash en la rama que estamos.)
+      git stash list -> (Ver la lista de stash)
+      git stash drop -> (Eliminar el stash)
+      git stash show *Nombre del Stash* -> (Muestra el estado de un stash)
+      git stash branch "Rama nombre" "Nombre stash" -> (Crea una rama nueva a partir de un stash)
+
   * Crear Pull Requests
   * Recomendaciones para hacer Comit
   * Estructura de las ramas recomendadas para un proyecto
