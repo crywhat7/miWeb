@@ -1,4 +1,4 @@
--Git
+- Git
   * Comando basicos de git
     (Inicializar un proyecto) -> git init
     (Agregar un archivo) -> git add
@@ -31,14 +31,40 @@
       git stash branch "Rama nombre" "Nombre stash" -> (Crea una rama nueva a partir de un stash)
 
   * Crear Pull Requests
+
   * Recomendaciones para hacer Comit
+    1- Usar verbos imperativos (agregar, cambiar, solucionar, remover).
+    2- Utilizar como maximo 50 caracteres para el mensaje del commit.
+    3- Darle uso al cuerpo del commit agregando todo lo necesario para comprender la razon por la cual
+    se realizo el commit.
+    https://medium.com/@jmz12/buenas-pr%C3%A1cticas-para-commits-5eb4c86b9a47    
+
   * Estructura de las ramas recomendadas para un proyecto
+    Ramas principales y ramas auxiliares.
+      Las ramas principales: Master y Develop
+      Las ramas secundarias: Feature, Release y Hotfix    
+      Siempre debemos integrar codigo en otras ramas (auxiliares) antes de integrar con las ramas Master y Develop (principales)
+
   * Saber para que sirve cada tipo de rama
+    Feature: Sirve para nuevas caracteristicas, nuevos requisitos o nuevas historias de usuario.
+    Release: Para estandarizar o cortar una serie de codigo que ha estado desarrollandose en la rama Develop.
+    Hotfix: Sirve para depurar codigo que venga de produccion, cuando se detecta un defecto critico y deba resolverse de inmediato.
+
   * Uso de SourceTree
+
   * Hacer merge entre ramas
     (Hacer un merge) -> git merge "Nombre Rama"
+
   * Rebase entre ramas
+    git rebase -> (Sirve para realizar un fast forward: Cuando estamos haciendo cambios en otra rama, en vez de hacer un merge
+    podemos hacer un rebase, que trae los commits realizados en la primer rama y agrega los commits de la rama en la que estamos
+    trabajando, luego hace un commit a la primer rama, generando una grafica lineal)
+
   * Revert
+    git revert "Commit" -> (Mediante este comando podemos revertir el estado a un commit anterior pero no borra los commits que han pasado
+    , hace un merge que contiene el revert que realizamos.)
+    git reset --hard "Commit" -> (Este comando nos devuelve a un commit realizado, es un comando peligroso.)
+
   * Recuperacion de un Stash almacenado
 
 - Angular
@@ -75,7 +101,7 @@
   * comando git para usar en consola 
   * SSH	
 
--PostgreSql
+- PostgreSql
   * Funciones
   * PgReference
   * Funciones de Arreglos en Postgres
