@@ -1,0 +1,83 @@
+-Git
+  * Comando basicos de git
+    (Inicializar un proyecto) -> git init
+    (Agregar un archivo) -> git add
+    (Ver el estado) -> git status
+    (Hacer un cambio) -> git commit -m "Comentario"
+    (Ver el historial) -> git log --oneline
+    () -> git push
+    () -> git pull
+    (Ramas) -> git checkout
+    (Ver los cambios) -> git diff "archivo.ext"
+    (Subir los archivos a la nube) -> git remote add origin "url"
+
+  * Clonacion de Repositorios
+    (Clonar un repositorio) -> git clone
+
+  * Cambiar entre ramas
+    (Crear Rama) -> git checkout -b "Nombre Rama"
+    (Cambiar Rama) -> git checkout "Nombre Rama"
+    (Ver ramas) -> git branch
+
+  * Crear Stashes y saber que son y para que sirven
+  * Crear Pull Requests
+  * Recomendaciones para hacer Comit
+  * Estructura de las ramas recomendadas para un proyecto
+  * Saber para que sirve cada tipo de rama
+  * Uso de SourceTree
+  * Hacer merge entre ramas
+    (Hacer un merge) -> git merge "Nombre Rama"
+  * Rebase entre ramas
+  * Revert
+  * Recuperacion de un Stash almacenado
+
+- Angular
+  * Typescript 
+  * Crear y usar interfaces o modelos
+  * Linter (esLint u otros)
+  * Redux o NgRx para manejar estados dentro de una aplicacion
+  * Que son y como manejar los servicios en angular 
+  * Como conectarse a la base de datos desde un servicio
+  * Pg Libreria para usar postgres con angular (Version mas reciente)
+  * Nodejs
+  * Nestjs
+  * Herramientas para documentacion de codigo
+  * Normas para la estructura del proyecto 
+  * CSS y SCSS para estilos adicionales
+  * Primeng (Como usar paramtros entre componentes y vistas)
+  * EventEmitter, BehaviorSubject, ViewChild, Input y Outputs en angular 
+  * Angular Router 
+  * Angular LifeCycles Hooks
+  * SPA
+  * API REST
+  * Async y Await 
+  * Responsive Design 
+  * UX Flow
+
+- Adobe XD 
+  * Como crear componentes y eventos en los mismos	
+  * Como usar transiciones en los diseños
+  * Material Theme para app moviles en XD	
+
+- Servidores
+  * PM2
+  * Comando basicos para utilizar linux
+  * comando git para usar en consola 
+  * SSH	
+
+-PostgreSql
+  * Funciones
+  * PgReference
+  * Funciones de Arreglos en Postgres
+  * Restauracion de base de datos
+
+- AWS (Amazon Web Services)
+  * S3
+  * SDK de S3 para uso en aplicaciones en C#, JavaScript y PHP
+
+- Generalidades
+  * Funciones y metodos de los Arreglos 
+  * JSON 
+  * JWT (Json Web Token)
+  * Patrones de diseño de Software
+  * Iframes
