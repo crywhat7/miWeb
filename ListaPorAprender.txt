@@ -5,8 +5,8 @@
     (Ver el estado) -> git status
     (Hacer un cambio) -> git commit -m "Comentario"
     (Ver el historial) -> git log --oneline
-    () -> git push
-    () -> git pull
+    (Subir los archivos locales al repositorio) -> git push
+    (Descargar los archivos del repositorio) -> git pull
     (Ramas) -> git checkout
     (Ver los cambios) -> git diff "archivo.ext"
     (Subir los archivos a la nube) -> git remote add origin "url"
@@ -23,12 +23,14 @@
     Sirven para guardar todo el trabajo que hemos estado realizando en una rama
     y poder cambiarnos a otra en el caso de que sea estrictamente necesario.
     (Comandos)
-      git stash save "Comentario" -> (Guarda el progreso.)
-      git stash apply -> (Aplicar los ultimos cambios en el stash en la rama que estamos.)
+      git stash save "Comentario" -> (Guarda el progreso.)      
       git stash list -> (Ver la lista de stash)
       git stash drop -> (Eliminar el stash)
       git stash show *Nombre del Stash* -> (Muestra el estado de un stash)
       git stash branch "Rama nombre" "Nombre stash" -> (Crea una rama nueva a partir de un stash)
+
+  * Recuperacion de un Stash almacenado    
+    git stash apply stash@{0} -> (Aplicar los ultimos cambios en el stash en la rama que estamos.)
 
   * Crear Pull Requests
 
@@ -63,9 +65,7 @@
   * Revert
     git revert "Commit" -> (Mediante este comando podemos revertir el estado a un commit anterior pero no borra los commits que han pasado
     , hace un merge que contiene el revert que realizamos.)
-    git reset --hard "Commit" -> (Este comando nos devuelve a un commit realizado, es un comando peligroso.)
-
-  * Recuperacion de un Stash almacenado
+    git reset --hard "Commit" -> (Este comando nos devuelve a un commit realizado, es un comando peligroso.)  
 
 - Angular
   * Typescript 
