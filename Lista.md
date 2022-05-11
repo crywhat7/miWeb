@@ -68,21 +68,21 @@
   * Recuperacion de un Stash almacenado
 
 ###Angular
-  * Typescript 
+  * Typescript
   * Crear y usar interfaces o modelos
   * Linter (esLint u otros)
   * Redux o NgRx para manejar estados dentro de una aplicacion
-  * Que son y como manejar los servicios en angular 
+  * Que son y como manejar los servicios en angular
   * Como conectarse a la base de datos desde un servicio
   * Pg Libreria para usar postgres con angular (Version mas reciente)
   * Nodejs
   * Nestjs
   * Herramientas para documentacion de codigo
-  * Normas para la estructura del proyecto 
+  * Normas para la estructura del proyecto
   * CSS y SCSS para estilos adicionales
   * Primeng (Como usar paramtros entre componentes y vistas)
-  * EventEmitter, BehaviorSubject, ViewChild, Input y Outputs en angular 
-  * Angular Router 
+  * EventEmitter, BehaviorSubject, ViewChild, Input y Outputs en angular
+  * Angular Router
   * Angular LifeCycles Hooks
   * SPA
   * API REST
@@ -90,7 +90,7 @@
   * Responsive Design 
   * UX Flow
 
-###Adobe XD 
+###Adobe XD
   * Como crear componentes y eventos en los mismos	
   * Como usar transiciones en los diseños
   * Material Theme para app moviles en XD	
@@ -98,8 +98,8 @@
 ###Servidores
   * PM2
   * Comando basicos para utilizar linux
-  * comando git para usar en consola 
-  * SSH	
+  * comando git para usar en consola
+  * SSH
 
 ###PostgreSql
   * Funciones
@@ -112,8 +112,8 @@
   * SDK de S3 para uso en aplicaciones en C#, JavaScript y PHP
 
 ###Generalidades
-  * Funciones y metodos de los Arreglos 
-  * JSON 
+  * Funciones y metodos de los Arreglos
+  * JSON
   * JWT (Json Web Token)
   * Patrones de diseño de Software
   * Iframes
